@@ -1,0 +1,30 @@
+/* Makes sizing easier */
+* {
+  box-sizing: border-box;
+}
+
+/* Page style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightblue;
+  margin: 40px;
+  padding: 20px;
+}
+
+/* Card box style */
+.card {
+  max-width: 600px;
+  margin: 0 auto; /* centers the card */
+  padding: 30px;
+  background-color: white;
+  border: 4px solid teal;
+}
+
+/* Text inside the card */
+h1 {
+  color: teal;
+}
+
+p {
+  color: black;
+}
