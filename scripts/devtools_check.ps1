@@ -1,5 +1,5 @@
 # DevTools-like check: fetch pages and validate all resource links
-$baseUrl = "http://localhost:8001"
+$baseUrl = "http://localhost:8765"
 $pages = @(
   "/",
   "/example-exercise-00/",
