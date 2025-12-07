@@ -1,0 +1,104 @@
+﻿{
+    "Issues":  [
+                   {
+                       "Error":  "The operation has timed out.",
+                       "URL":  "http://localhost:8765/example-exercise-00/week-06-exercise-01/week-06-exercise-01-template/gallery/",
+                       "Ref":  "../gallery/",
+                       "Page":  "example-exercise-00/week-06-exercise-01/week-06-exercise-01-template/projects/index.html",
+                       "Type":  "RESOURCE_ERROR"
+                   },
+                   {
+                       "Error":  "Unable to connect to the remote server",
+                       "URL":  "http://localhost:8765/example-exercise-00/week-06-exercise-01/week-06-exercise-01-template/projects/project-detail.html",
+                       "Ref":  "project-detail.html",
+                       "Page":  "example-exercise-00/week-06-exercise-01/week-06-exercise-01-template/projects/index.html",
+                       "Type":  "RESOURCE_ERROR"
+                   },
+                   {
+                       "Error":  "Unable to connect to the remote server",
+                       "Url":  "http://localhost:8765/example-exercise-00/week-06-exercise-01/week-06-exercise-01-template/projects/project-detail.html",
+                       "File":  "example-exercise-00/week-06-exercise-01/week-06-exercise-01-template/projects/project-detail.html",
+                       "Type":  "PAGE_FETCH_ERROR"
+                   },
+                   {
+                       "Error":  "Unable to connect to the remote server",
+                       "Url":  "http://localhost:8765/example-exercise-00/week-06-exercise-01/week-06-exercise-01-template/about.html",
+                       "File":  "example-exercise-00/week-06-exercise-01/week-06-exercise-01-template/about.html",
+                       "Type":  "PAGE_FETCH_ERROR"
+                   },
+                   {
+                       "Error":  "Unable to connect to the remote server",
+                       "Url":  "http://localhost:8765/example-exercise-00/week-06-exercise-01/week-06-exercise-01-template/index.html",
+                       "File":  "example-exercise-00/week-06-exercise-01/week-06-exercise-01-template/index.html",
+                       "Type":  "PAGE_FETCH_ERROR"
+                   },
+                   {
+                       "Error":  "Unable to connect to the remote server",
+                       "Url":  "http://localhost:8765/example-exercise-00/index.html",
+                       "File":  "example-exercise-00/index.html",
+                       "Type":  "PAGE_FETCH_ERROR"
+                   },
+                   {
+                       "Error":  "Unable to connect to the remote server",
+                       "Url":  "http://localhost:8765/example-project-00/project-01/index.html",
+                       "File":  "example-project-00/project-01/index.html",
+                       "Type":  "PAGE_FETCH_ERROR"
+                   },
+                   {
+                       "Error":  "Unable to connect to the remote server",
+                       "Url":  "http://localhost:8765/example-project-00/index.html",
+                       "File":  "example-project-00/index.html",
+                       "Type":  "PAGE_FETCH_ERROR"
+                   },
+                   {
+                       "Error":  "Unable to connect to the remote server",
+                       "Url":  "http://localhost:8765/project-02/about.html",
+                       "File":  "project-02/about.html",
+                       "Type":  "PAGE_FETCH_ERROR"
+                   },
+                   {
+                       "Error":  "Unable to connect to the remote server",
+                       "Url":  "http://localhost:8765/project-02/contact.html",
+                       "File":  "project-02/contact.html",
+                       "Type":  "PAGE_FETCH_ERROR"
+                   },
+                   {
+                       "Error":  "Unable to connect to the remote server",
+                       "Url":  "http://localhost:8765/project-02/index.html",
+                       "File":  "project-02/index.html",
+                       "Type":  "PAGE_FETCH_ERROR"
+                   },
+                   {
+                       "Error":  "Unable to connect to the remote server",
+                       "Url":  "http://localhost:8765/project-02/projects.html",
+                       "File":  "project-02/projects.html",
+                       "Type":  "PAGE_FETCH_ERROR"
+                   },
+                   {
+                       "Error":  "Unable to connect to the remote server",
+                       "Url":  "http://localhost:8765/week-01-exercise-01/index.html",
+                       "File":  "week-01-exercise-01/index.html",
+                       "Type":  "PAGE_FETCH_ERROR"
+                   },
+                   {
+                       "Error":  "Unable to connect to the remote server",
+                       "Url":  "http://localhost:8765/week-03-exercise-01/index.html",
+                       "File":  "week-03-exercise-01/index.html",
+                       "Type":  "PAGE_FETCH_ERROR"
+                   },
+                   {
+                       "Error":  "Unable to connect to the remote server",
+                       "Url":  "http://localhost:8765/week-04-exercise-01/index.html",
+                       "File":  "week-04-exercise-01/index.html",
+                       "Type":  "PAGE_FETCH_ERROR"
+                   },
+                   {
+                       "Error":  "Unable to connect to the remote server",
+                       "Url":  "http://localhost:8765/index.html",
+                       "File":  "index.html",
+                       "Type":  "PAGE_FETCH_ERROR"
+                   }
+               ],
+    "Generated":  "2025-12-07T14:12:31",
+    "Base":  "http://localhost:8765"
+}

@@ -23,9 +23,14 @@ try {
   while ($listener.IsListening) {
     $ctx = $listener.GetContext()
     $req = $ctx.Request
-    $path = $req.Url.AbsolutePath.TrimStart('/')
+    # URL-decode the requested path so files with spaces/parentheses resolve correctly
+    $path = [System.Uri]::UnescapeDataString($req.Url.AbsolutePath).TrimStart('/')
     if ($path -eq '') { $path = 'index.html' }
     $filePath = Join-Path $Root $path
+    # If the path is a directory, serve its index.html
+    if (Test-Path $filePath -PathType Container) {
+      $filePath = Join-Path $filePath 'index.html'
+    }
     if (Test-Path $filePath) {
       $ext = [System.IO.Path]::GetExtension($filePath).ToLower()
       $type = $mime[$ext]
